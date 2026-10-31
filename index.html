@@ -165,15 +165,24 @@
   .contact a:hover { text-decoration: underline; }
   .tarifs { font-size: 0.95rem; margin-top: 0.8rem; }
 
-  .photo-nico {
-    display: block;
+  .photo-cadre {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    object-fit: cover;
+    overflow: hidden;
     margin: 2rem auto 0.6rem;
     border: 4px solid var(--fond-carte);
     box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    background: #E7E5E4;
+  }
+  .photo-nico {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    /* Zoom pour remplir tout le rond : augmente (1.3, 1.4...) si besoin */
+    transform: scale(1.25);
   }
   .legende-photo {
     text-align: center;
@@ -245,9 +254,11 @@
       <p>📞 <a href="tel:0782637092">07 82 63 70 92</a></p>
       <p>📧 <a href="mailto:nicolaschochod@orange.fr">nicolaschochod@orange.fr</a></p>
       <p>🔗 <a href="https://www.linkedin.com/in/nicolas-charreyre-chochod-69037a6a/" target="_blank" rel="noopener">Mon profil LinkedIn</a></p>
-      <p class="tarifs"><a href="#" onclick="document.getElementById('grille-tarifaire-modal').style.display='flex'; return false;">Grille tarifaire solidaire</a>&nbsp;: de 20&nbsp;€ à 80&nbsp;€ pour une séance d'environ 1h30 (environ 1h lorsque je me déplace à votre domicile), selon vos revenus (détail donné lors du premier contact)</p>
+      <p class="tarifs"><a href="#" onclick="document.getElementById('grille-tarifaire-modal').style.display='flex'; return false;">Grille tarifaire solidaire individuel</a>&nbsp;: de 20&nbsp;€ à 80&nbsp;€ pour une séance d'environ 1h30 (environ 1h lorsque je me déplace à votre domicile), selon vos revenus (détail donné lors du premier contact)</p>
 
-      <img class="photo-nico" src="visage%20nico.png" alt="Photo de Nicolas Charreyre">
+      <div class="photo-cadre">
+        <img class="photo-nico" src="visage%20nico.png" alt="Photo de Nicolas Charreyre">
+      </div>
       <p class="legende-photo">Nicolas Charreyre</p>
 
       <div class="cta-zone">
