@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="4diRi-smhZUhq1-Sx5P23QuP6j4YdrfK28qyV9ee_RA" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nicolas Charreyre — Danse-Thérapeute ADDI &amp; Médiation Créative</title>
+<meta name="description" content="Carte de visite numérique de Nicolas Charreyre, danse-thérapeute ADDI et médiation créative à Mornant. Contact rapide et présentation de l'accompagnement.">
+<link rel="canonical" href="https://nico150981.github.io/recreation/">
+
+<!-- Open Graph / partage sur réseaux sociaux -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nicolas Charreyre — Danse-Thérapeute ADDI & Médiation Créative">
+<meta property="og:description" content="Séances individuelles de danse-thérapie ADDI et médiation créative, à Mornant. Prenez contact ou découvrez l'accompagnement proposé.">
+<meta property="og:image" content="https://nico150981.github.io/danse-therapie-addi-mediation-creative-mornant/site-final/images/bienvenue.png">
+<meta property="og:url" content="https://nico150981.github.io/recreation/">
+<meta property="og:locale" content="fr_FR">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Nicolas Charreyre - Danse-Thérapie ADDI & Médiation Créative",
+  "description": "Séances individuelles de danse-thérapie ADDI et médiation créative à Mornant. Accompagnement personnalisé pour adultes en transition de vie, en surmenage ou après un épuisement professionnel et familial.",
+  "url": "https://nico150981.github.io/recreation/",
+  "telephone": "0782637092",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "17 rue Waldwisse",
+    "addressLocality": "Mornant",
+    "postalCode": "69440",
+    "addressCountry": "FR"
+  },
+  "priceRange": "20€-80€",
+  "sameAs": [
+    "https://www.linkedin.com/in/nicolas-charreyre-chochod-69037a6a/"
+  ]
+}
+</script>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nicolas Charreyre — Danse-Thérapeute ADDI & Médiation Créative">
+<meta name="twitter:description" content="Séances individuelles de danse-thérapie ADDI et médiation créative, à Mornant.">
+<meta name="twitter:image" content="https://nico150981.github.io/danse-therapie-addi-mediation-creative-mornant/site-final/images/bienvenue.png">
+
+<!--
+  Note pour Nicolas :
+  - Les images (logo, photo, grille tarifaire) sont à la racine du dépôt,
+    à côté de ce fichier index.html.
+  - og:image pointe encore vers le site approfondi actuel. Si son adresse change,
+    pense à mettre cette ligne à jour.
+-->
+
+<style>
+  :root {
+    --police-titres: Georgia, 'Times New Roman', serif;
+    --police-corps: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --fond-page: #FAF8F5;
+    --fond-carte: #FFFFFF;
+    --texte-titres: #292524;
+    --texte-corps: #57534E;
+    --accent: #0D9488;
+    --accent-fonce: #0B7A70;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: var(--police-corps);
+    background: var(--fond-page);
+    color: var(--texte-corps);
+    line-height: 1.7;
+    font-size: 1.05rem;
+  }
+  a { color: var(--accent); }
+  a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+  /* En-tête : logo sur fond blanc */
+  .entete {
+    background: var(--fond-carte);
+    padding: 2.5rem 1.5rem 1.5rem;
+    text-align: center;
+  }
+  .entete img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  /* Bande de transition en dégradé turquoise, avec la citation */
+  .bande-transition {
+    background: linear-gradient(135deg, #CCFBF1 0%, #99F6E4 45%, #5EEAD4 100%);
+    padding: 2.2rem 1.5rem;
+    text-align: center;
+  }
+  .bande-transition blockquote {
+    max-width: 620px;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.6);
+    border-radius: 16px;
+    padding: 1.1rem 1.4rem;
+    font-family: var(--police-titres);
+    font-style: italic;
+    font-size: 1.25rem;
+    color: var(--accent-fonce);
+  }
+
+  .conteneur {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 3rem;
+  }
+  h1 {
+    font-family: var(--police-titres);
+    font-size: 1.9rem;
+    color: var(--texte-titres);
+    text-align: center;
+    margin-bottom: 1.3rem;
+  }
+  h2 {
+    font-family: var(--police-titres);
+    font-size: 1.4rem;
+    color: var(--texte-titres);
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .conteneur p { margin-bottom: 1.2rem; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 1.2rem;
+    margin: 2rem 0 2.5rem;
+  }
+  .card {
+    background: var(--fond-carte);
+    border-radius: 14px;
+    padding: 1.3rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  .card h3 {
+    font-family: var(--police-titres);
+    font-size: 1.1rem;
+    color: var(--texte-titres);
+    margin-bottom: 0.5rem;
+  }
+  .card p { font-size: 0.98rem; margin-bottom: 0; }
+  .card:nth-child(1) { background: #F0FDFA; border-top: 5px solid #0D9488; }
+  .card:nth-child(2) { background: #E1F5FE; border-top: 5px solid #0277BD; }
+  .card:nth-child(3) { background: #FFF4E6; border-top: 5px solid #D97706; }
+  .contact {
+    background: var(--fond-carte);
+    border-radius: 16px;
+    padding: 1.8rem 1.5rem;
+    margin: 2rem 0;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  .contact .nom {
+    font-family: var(--police-titres);
+    font-size: 1.2rem;
+    color: var(--texte-titres);
+    margin-bottom: 0.8rem;
+  }
+  .contact p { margin-bottom: 0.6rem; }
+  .contact a { font-weight: 600; text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  .tarifs { font-size: 0.95rem; margin-top: 0.8rem; }
+
+  .photo-nico {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 2.5rem auto 1rem;
+    filter: drop-shadow(0 4px 10px rgba(0,0,0,0.15));
+  }
+  .legende-photo {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--texte-corps);
+    margin-bottom: 2.2rem;
+  }
+
+  .cta-zone { text-align: center; margin-top: 1rem; }
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 1rem 2.2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .btn:hover { background: var(--accent-fonce); }
+
+  footer {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    font-size: 0.85rem;
+    color: var(--texte-corps);
+  }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+
+  <header class="entete">
+    <img src="logo-recreation.png?v=2" alt="Re création : accompagnement personnalisé par le mouvement, l'ADDI, et la médiation créative">
+  </header>
+
+  <div class="bande-transition">
+    <blockquote>« dans l'espace où le corps, le cœur et l'esprit s'animent et se libèrent »</blockquote>
+  </div>
+
+  <div class="conteneur">
+    <h1>Bienvenue</h1>
+
+    <p>Séances individuelles et personnalisées pour adultes en transition de vie, en surmenage ou en épuisement professionnel et familial. Un espace chaleureux et confidentiel pour ralentir, se reconnecter à son corps, accueillir ses émotions et retrouver un mieux-être par le mouvement, l'expression gestuelle et l'art.</p>
+
+    <p>Vous êtes libre d'imaginer, de créer, d'explorer, de vous exprimer et de danser, à votre rythme et dans le respect de votre histoire. La séance peut devenir un espace pour déposer ce qui est vécu, mieux accueillir ses émotions, apaiser ses tensions et renouer progressivement avec soi-même.</p>
+
+    <p>L'accompagnement s'appuie sur l'approche ADDI (Approche Développementale Dynamique et Intégrative), qui observe le sens de soi et l'organisation du mouvement, et qui explore, dans la relation, les réflexes archaïques, les réactions de redressement et d'équilibration, remis en jeu et vécus dans le corps. Il s'appuie aussi sur le Body-Mind Centering (BMC), une attention fine portée au toucher et au processus qui se déploie dans l'instant.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Pour qui&nbsp;?</h3>
+        <p>Adultes en surmenage ou en quête de mieux-être corporel et émotionnel. Aucun prérequis de danse ou d'art.</p>
+      </div>
+      <div class="card">
+        <h3>L'approche</h3>
+        <p>Se reconnecter à son corps, accueillir ses émotions et retrouver un mieux-être par le mouvement, l'expression gestuelle et l'art.</p>
+      </div>
+      <div class="card">
+        <h3>Le cadre</h3>
+        <p>Séances individuelles, dans un espace bienveillant et confidentiel.</p>
+      </div>
+    </div>
+
+    <div class="contact">
+      <h2>Contact</h2>
+      <p class="nom">Nicolas Charreyre</p>
+      <p>Pour prendre rendez-vous ou poser une question, n'hésitez pas à m'écrire ou à m'appeler.</p>
+      <p>📞 <a href="tel:0782637092">07 82 63 70 92</a></p>
+      <p>📧 <a href="mailto:nicolaschochod@orange.fr">nicolaschochod@orange.fr</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/nicolas-charreyre-chochod-69037a6a/" target="_blank" rel="noopener">Mon profil LinkedIn</a></p>
+      <p class="tarifs"><a href="#" onclick="document.getElementById('grille-tarifaire-modal').style.display='flex'; return false;">Grille tarifaire solidaire individuel</a>&nbsp;: de 20&nbsp;€ à 80&nbsp;€ pour une séance d'environ 1h30 (environ 1h lorsque je me déplace à votre domicile), selon vos revenus (détail donné lors du premier contact)</p>
+
+      <img class="photo-nico" src="https://nico150981.github.io/Re-cr-ation-2/visage_nico.png" alt="Photo de Nicolas Charreyre">
+      <p class="legende-photo">Nicolas Charreyre</p>
+
+      <div class="cta-zone">
+        <a class="btn" href="https://nico150981.github.io/danse-therapie-addi-mediation-creative-mornant/site-final/#accueil">Découvrir mon activité en détail →</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Nicolas Charreyre – Re Création · Accompagnement personnalisé par le mouvement, l'ADDI, et la médiation créative</p>
+    <p><a href="mentions-legales.html" style="color: inherit;">Mentions légales</a></p>
+    <p style="font-size: 0.85rem;">Cet accompagnement ne remplace pas un suivi médical ou psychologique.</p>
+  </footer>
+
+  <div id="grille-tarifaire-modal" onclick="this.style.display='none';" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.75); z-index:1000; align-items:center; justify-content:center; padding:2rem; cursor:zoom-out;">
+    <img src="Tarif_solidaire_2026_.png" alt="Grille tarifaire solidaire individuel 2026" style="max-width:95%; max-height:90vh; border-radius:12px; box-shadow:0 10px 40px rgba(0,0,0,0.4);">
+  </div>
+</body>
+</html>
